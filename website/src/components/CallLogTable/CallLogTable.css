@@ -1,0 +1,18 @@
+.filters-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  width: 60%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.date-filter {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
