@@ -9,7 +9,7 @@ void main() async {
 
   await Supabase.initialize(
     url: 'https://sfskqaeauyjqcefzvtmb.supabase.co',
-    anonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNmc2txYWVhdXlqcWNlZnp2dG1iIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjkyNjIzMzUsImV4cCI6MjA0NDgzODMzNX0.Ya8pb4W-owyvLdTqJXsjrIr03-6JR68IgAF_1M9StK4',
+    anonKey: 'iwicm9sZSI6ImFub24iLCJpYXQiOjE3MjkyMzNX0.Ya8pb4W-owyvLdTqJXsjrIr03-6JR68IgAF_1M9StK4',
   );
 
   final session = Supabase.instance.client.auth.currentSession;
